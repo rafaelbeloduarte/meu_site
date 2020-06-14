@@ -12,7 +12,7 @@ toc = true
 math = true
 +++
 
-*Autores: DUARTE, R. B & M. B. S.*
+*Autores: DUARTE, R. B. & M. B. S.*
 
 ## Introdução
 
