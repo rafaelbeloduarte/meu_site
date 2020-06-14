@@ -12,6 +12,8 @@ toc = true
 math = true
 +++
 
+*Autores: DUARTE, R. B & M. B. S.*
+
 ## Introdução
 
 Um reator contínuo de tanque agitado, ou CSTR, do inglês *continuous stirred-tank reactor*, é
