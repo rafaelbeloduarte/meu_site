@@ -21,7 +21,7 @@ rafaelbeloduarte@pm.me
 
 :	Maringá - PR, Brazil
 
-	*Mar 2020 - Present*
+	*Mar 2020 - Oct 2020*
 
 Curricular internship carried out in the production of polyurethane foams.
 

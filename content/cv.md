@@ -23,7 +23,7 @@ rafaelbeloduarte@pm.me
 
 :	Maringá - PR
 
-	*Mar 2020 - Presente*
+	*Mar 2020 - Out 2020*
 
 	Estágio curricular realizado na área de produção de espumas de poliuretano.
 
