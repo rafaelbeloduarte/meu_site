@@ -9,8 +9,6 @@ Rafael Belo Duarte
 
 ---
 
-Brasileiro, solteiro, 26 anos
-
 rafaelbeloduarte@pm.me
 
 [https://br.linkedin.com/in/rafaelbeloduarte](https://br.linkedin.com/in/rafaelbeloduarte)
