@@ -35,7 +35,7 @@ $$
 
 $$
 \frac{T(t)-T_s}{T_i-T_s} \equiv erf (\eta)
-\label{eq4} \tag{eq4}
+\label{eq4} \tag{4}
 $$
 
 Onde **T(t)** é a temperatura no tempo **t**, **$T_s$** a temperatura da superfície (*constante e diferente da temperatura inicial*) e **$T_i$** a temperatura inicial.
