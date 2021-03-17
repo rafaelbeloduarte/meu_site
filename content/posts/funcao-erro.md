@@ -13,7 +13,7 @@ series = []
 A função erro de Gauss (Equação \ref{eq1}) aparece quando se deseja resolver problemas de transferência de calor em regime transiente.
 
 $$
-erf(x) = \frac{2}{\sqrt{\pi}} \int{e^{-x^2}} dz
+erf(x) = \frac{2}{\sqrt{\pi}} \int{e^{-x^2}} dx
 \label{eq1} \tag{1}
 $$
 
