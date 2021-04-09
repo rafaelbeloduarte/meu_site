@@ -53,18 +53,3 @@ Após a centrifugação, a parte inferior do tudo conterá uma fase aquosa e o s
 [^fn]: Hartman L., Lago R. C. **Rapid preparation of fatty acid methyl esters from lipids** (1973). Lab Pract  , Vol. 22, No. 6. [https://www.researchgate.net/publication/18441624_Rapid_preparation_of_fatty_acid_methyl_esters](https://www.researchgate.net/publication/18441624_Rapid_preparation_of_fatty_acid_methyl_esters)
 
 [^fn1]: Pimenta, João Lourenço Castagnari Willimann. **Síntese e avaliação de catalisador não convencional na produção de hidrocarbonetos a partir do óleo de soja**. Dissertação de Mestrado, Universidade Estadual De Maringá, 2018.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

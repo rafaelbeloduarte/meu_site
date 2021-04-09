@@ -30,9 +30,9 @@ rafaelbeloduarte@pm.me
 
 :	Universidade Estadual de Maringá
 
-	*Jun 2018 – Out 2019*
+	*2019 – 2020*: Produção de combustíveis renováveis a partir de óleos vegetais utilizando catalisador impregnado baseado em carbetos de Níquel-Molibdênio.
 
-	Participei de projeto de iniciação científica na produção de hidrocarbonetos a partir de óleo de soja, concluído na área de catálise e equipamentos industriais.
+	*2018 – 2019*: Síntese, caracterização e avaliação de catalisadores inovadores para hidrotratamento de óleos vegetais visando a produção de combustíveis renováveis.
 
 
 **Intercâmbio**
@@ -44,7 +44,7 @@ rafaelbeloduarte@pm.me
 
 ## Educação
 
-*2013-Jan 2021 (previsto)*
+*2013-2020*
 :   **Engenharia Química**
 	
 	Universidade Estadual de Maringá
@@ -84,3 +84,21 @@ rafaelbeloduarte@pm.me
 + Cromatografia gasosa
 
 + Arduíno
+
+## Publicações
+
++ Janeiro, 2021. Fuel.
+
+[Deoxygenation of vegetable oils for the production of renewable diesel: Improved aerogel based catalysts](http://dx.doi.org/10.1016/j.fuel.2020.119979)
+
++ Outubro, 2020. Chemical Engineering Science.
+
+[A novel kinetic model applied to heterogeneous fatty acid deoxygenation](https://www.sciencedirect.com/science/article/pii/S0009250920307247?via%3Dihub#!)
+
++ Outubro, 2019. Encontro Anual de Iniciação Científica - UEM.
+
+[Dimensionamento de coluna de destilação para separação de hidrocarbonetos obtidos a partir da desoxigenação de Ácido oleico com catalisador aerogel](http://www.eaic.uem.br/eaic2019/anais/artigos/3231.pdf)
+
++ Setembro, 2019. 20º Congresso Brasileiro de Catálise.
+
+[Comparação da Desoxigenação de Ácido Oleico em Fase Líquida e Fase Gasosa com Catalisador Aerogel](http://sisconev.com.br/uploads/CBCat2019/20190428153334000001647.pdf)
