@@ -12,14 +12,12 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# disqusShortname = "httpsrafaelbeloduartegithubio"
-
 [params]
     author = "Rafael Belo Duarte"
 #    info = "Engenheiro Químico"
 #    description = "Aqui encontrarás meu currículo e projetos realizados."
 #    keywords = "blog,engenharia,engenharia química"
-    avatarurl = "img/avatar.jpg"
+    avatarurl = "img/icon_32.png"
     
     dateformat = "02/01/2006"
 
@@ -106,13 +104,8 @@ pygmentscodefencesguesssyntax = true
             url = "/tags/"
 
             [[languages.en.menu.main]]
-            name = "Resume"
-            weight = 3
-            url = "/resume"
-
-            [[languages.en.menu.main]]
             name = "Contact me"
-            weight = 5
+            weight = 3
             url = "/contact"
 
 
@@ -140,11 +133,6 @@ pygmentscodefencesguesssyntax = true
             url = "/tags/"
 
             [[languages.pt-br.menu.main]]
-            name = "Currículo"
-            weight = 3
-            url = "/cv"
-
-            [[languages.pt-br.menu.main]]
             name = "Contato"
-            weight = 4
+            weight = 3
             url = "/contato"
