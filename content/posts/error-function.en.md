@@ -42,7 +42,7 @@ Where **T(t)** is the temperature in time **t**, **$T_s$** the surface temperatu
 
 The development, boundary conditions used and table with the values ​​of the **erf(x)** and **erfc(x)** functions are presented in detail by Incropera [^fn1].
 
-## Referências
+## References
 
 [^fn1]: Incropera, Frank P. DeWitt, David P. Bergman, Theodore L. Lavine, Adrienne S. Fundamentos de Transferência de Calor e Massa. 2008, 6ª ed. LTC: Rio de Janeiro, RJ. 
 
