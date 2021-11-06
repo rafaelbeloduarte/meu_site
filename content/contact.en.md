@@ -12,8 +12,4 @@ series = []
 
 ## E-mail
 
-rafaelbeloduarte@protonmail.com (rafaelbeloduarte@pm.me)
-
-## Linkedin
-
-[https://br.linkedin.com/in/rafaelbeloduarte](https://br.linkedin.com/in/rafaelbeloduarte)
+rafaelbeloduarte@pm.me
