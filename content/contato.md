@@ -12,7 +12,7 @@ series = []
 
 ## E-mail
 
-rafaelbeloduarte@protonmail.com (rafaelbeloduarte@pm.me)
+rafaelbeloduarte@pm.me
 
 ## Linkedin
 

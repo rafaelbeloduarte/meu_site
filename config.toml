@@ -50,11 +50,11 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-github fa-2x"
     weight = 1
     url = "https://github.com/rafaelbeloduarte/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 2
-    url = "https://www.linkedin.com/in/rafaelbeloduarte/"
+# [[params.social]]
+#     name = "LinkedIn"
+#     icon = "fab fa-linkedin"
+#     weight = 2
+#     url = "https://www.linkedin.com/in/rafaelbeloduarte/"
 [[params.social]]
     name = "Lattes"
     icon = "fas fa-user-graduate"
