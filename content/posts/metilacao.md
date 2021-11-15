@@ -10,7 +10,7 @@ externalLink = ""
 series = []
 +++
 
-Quando se deseja analisar amostras de ácidos graxos por cromatografia gasosa, faz-se necessária a metilação destes ácidos, pois, se injetados diretamente no equipamento, eles aderem à parede da coluna causando danos irreparáveis. A metilação converte os ácidos graxos em metis ésteres, permitindo sua injeção no cromatógrafo.
+Quando se deseja analisar amostras de ácidos graxos por cromatografia gasosa, faz-se necessária a metilação destes ácidos, pois se injetados diretamente no equipamento, eles aderem à parede da coluna causando danos irreparáveis. A metilação converte os ácidos graxos em metis ésteres, permitindo sua injeção no cromatógrafo.
 
 ## Procedimento
 
@@ -18,9 +18,9 @@ Procedimento adaptado por Pimenta[^fn1] a partir do método de Hartman[^fn].
 
 ### 1º: Saponificação
 
-+ Adicione **100µL de amostra** à um tubo de ensaio;
++ Adicione **100 µL de amostra** à um tubo de ensaio;
 
-+ Colocar 2mL de solução NaOH (0,5M em metanol);
++ Colocar 2 mL de solução NaOH (0,5 M em metanol);
 
 + Fechar o tubo, agitar, aquecer por 5 min com agitação durante;
 
@@ -30,7 +30,7 @@ Procedimento adaptado por Pimenta[^fn1] a partir do método de Hartman[^fn].
 
 Esta etapa utiliza a solução metilante (solução de cloreto de amônio e ácido sulfúrico em metanol). Sua preparação é descrita por Hartman [^fn].
 
-+ Adicionar 3mL da solução metilante;
++ Adicionar 3 mL da solução metilante;
 
 + Agitar e aquecer por 5 min;
 
@@ -38,15 +38,15 @@ Esta etapa utiliza a solução metilante (solução de cloreto de amônio e áci
 
 ### 3º: Extração
 
-+ Adicionar 2mL de hexano (ou qualquer outro solvente orgânico leve);
++ Adicionar 2 mL de hexano (ou qualquer outro solvente orgânico leve);
 
 + Agitar;
 
-+ Adicionar 1mL de solução saturada de NaCl para facilitar a separação;
++ Adicionar 1 mL de solução saturada de NaCl para facilitar a separação;
 
 + Centrifugar.
 
-Após a centrifugação, a parte inferior do tudo conterá uma fase aquosa e o sobrenadande será a fase orgânica contendo os metis ésteres.
+Após a centrifugação, a parte inferior do tubo conterá uma fase aquosa e o sobrenadande será a fase orgânica contendo os metis ésteres.
 
 ## Referências
 
