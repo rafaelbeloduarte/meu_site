@@ -95,7 +95,7 @@ A alimentação é dada como $7900 lbmol.h^{-1}$, à pressão inicial de $2 atm$
 |  				Viscosidade 			                                  |  				$\mu$ 			       |  				0,090 			    |  				$lb.ft^{-1}.h^{-1}$ 			       |
 |  				Coeficiente global de transferência de calor 			 |  				$U$ 			       |  				10 			       |  				$Btu.h^{-1}.ft^{-2}.^{o}R^{-1}$ 			 |
 |  				Área de seção transversal de um tubo 			         |  				$A_C$ 			      |  				0,0422 			   |  				$ft^2$ 			               |
-|  				Fator de conversão força-massa 			               |  				$g_c$ 			      |  				4,17*108 			 |  				$lbm.ft.lbf^{-1}.h^{-2}$ 			  |
+|  				Fator de conversão força-massa 			               |  				$g_c$ 			      |  				4,17*E8 			 |  				$lbm.ft.lbf^{-1}.h^{-2}$ 			  |
 |  				Densidade do leito 			                           |  				$\rho_b$ 			      |  				33,8 			     |  				$lb.ft^{-3}$ 			           |
 
 ### Balanço de Massa
@@ -125,7 +125,7 @@ Construindo a Tabela Estequiométrica (Tabela 2):
 |  				Espécie 			 |  				Entrada 			                |  				Variação 			 |  				Saída 			                                  |
 |-----------|--------------------------|------------|------------------------------------------|
 |  			$	A $			       |  		$		F_{A0} 			                  $  |  	$			-F_{A0}X 			 $   |  		$		F_{A} = F_{A0}(1-X) = F_{A0} (θ_A 				+ 				ν_AX) 	$		         |
-|  			$	B $			       |  		$		F_{B0} = 0,91 F_{A0} = θAF_{A0} 	$		 |  $				-0,5F_{A0}X  $ 		 |  	$			F_{B} = F_{A0}(0,91 – 0,5X) = F_{A0} 				(θ_B 				+ ν_BX) 	$		 |
+|  			$	B $			       |  		$		F_{B0} = 0,91 F_{A0} = θ_AF_{A0} 	$		 |  $				-0,5F_{A0}X  $ 		 |  	$			F_{B} = F_{A0}(0,91 – 0,5X) = F_{A0} 				(θ_B 				+ ν_BX) 	$		 |
 |  			$	C $			       |  		$		F_{C0} = 0 = θ_C F_{A0} 			      $  |  	$			F_{A0}X 			 $    |  		$		F_{C} = F_{A0}X = F_{A0} (θ_C 				+ ν_BX) $			             |
 |  			$	I $			       |  		$		F_{I0} = 7,18F_{A0} = θ_AF_{A0} 	$		  | $ 				0 			   $     |  	$			F_I = F_{I0} = F_{A0} (θ_I 				+ ν_IX) 	$		              |
 |  				Total 			   |  		$		F_{T0} = 9,09F_{A0} 			        $  |  	$			-0,5F_{A0}X 	 $ 	 |  		$		F_T = F_{T0} – 0,5F_{A0}X = F_{A0}(9,09 				– 0,5X) $			  |
