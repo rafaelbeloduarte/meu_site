@@ -47,7 +47,9 @@
     }
   }
   figure {
-    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
   }
   figcaption p {

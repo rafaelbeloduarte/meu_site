@@ -59,9 +59,7 @@ A análise da amostra revelou que a fração mais significativa do produto é co
 
 Os produtos retirados da coluna foram classificados de acordo com a faixa de temperatura, como na Figura 1. No topo temos uma mistura com temperatura de ebulição de 137,54 ºC, que foi classificada como gasolina leve, nos estágios 5 (Gasolina) e 11 (Querosene) retira-se vapor saturado a 157,47 ºC e 243,10 ºC, respectivamente.
 
-![coluna](/images/coluna.png "Coluna de destilação")
-
-**Figura 1 –  Coluna de destilação.**
+![coluna](/images/coluna.png "Figura 1 –  Coluna de destilação.")
 
 A eficiência dos pratos é estimada utilizando-se a correlação de O’Connell, de maneira iterativa, que fornece uma eficiência média de 0,3961. As cargas térmica no condensador e refervedor são -19 490,3 J/s e 203 205 J/s, nesta ordem.
 

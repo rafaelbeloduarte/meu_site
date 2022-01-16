@@ -38,9 +38,7 @@ são removidos por transbordo. Pode-se assumir também que as vazões $F_0$, $F_
 densidade foi tomada como sempre constante, as saídas ocorrem por transbordo e no momento em
 que se inicia a análise os tanques estão preenchidos.
 
-![cstr_serie](/images/cstr_serie/cstr_serie.jpg "Dois CSTR em série.")
-
-**Figura 1: Dois CSTR em série.**
+![cstr_serie](/images/cstr_serie/cstr_serie.jpg "Figura 1: Dois CSTR em série.")
 
 ## Resultados e discussão
 
@@ -301,33 +299,23 @@ $$
 
 Ambas definidas com relação à alimentação $F_0$.
 
-![Cxt](/images/cstr_serie/fig2.jpg "Dependência da concentração com o tempo.")
-
-**Figura 2: Dependência da concentração com o tempo.**
+![Cxt](/images/cstr_serie/fig2.jpg "Figura 2: Dependência da concentração com o tempo.")
 
 As Equações \ref{eq30} e \ref{eq31} nos levam, no estado estacionário, a um $X_1$ intermediário de $0,8333$ e uma conversão final $X_2$ igual a $0,9524$.
 
 Pode-se traçar também um gráfico relacionando o tempo com a conversão, como na Figura 3. Observa-se que no início as duas conversões são muito próximas, isto é consequência da definição adotada, que é sempre em relação à alimentação original. No primeiro instante o termo de consumo no reator dois é nulo e a conversão final é igual à intermediária. Conforme o tempo aumenta, reagente passa a entrar no segundo reator e o termo da conversão final começa a se distanciar da conversão intermediária.
 
-![Xxt](/images/cstr_serie/fig3.jpg "Relação entre a conversão e o tempo.")
-
-**Figura 3: Relação entre a conversão e o tempo.**
+![Xxt](/images/cstr_serie/fig3.jpg "Figura 3: Relação entre a conversão e o tempo.")
 
 ### Solução Numérica
 
 Utilizando-se do método de Runge-Kutta de quarta ordem (RK45) para resolução do [modelo criado no Xcos](https://github.com/rafaelbeloduarte/cstr_serie "Baixe o arquivo aqui") (Figura 6) foram obtidos perfis de concentração do componente A, e conversão intermediaria $X_1$ e final $X_2$ como segue.
 
-![Concentração do composto A em ambos os reatores](/images/cstr_serie/fig4.jpg "Concentração do composto A em ambos os reatores.")
+![Concentração do composto A em ambos os reatores](/images/cstr_serie/fig4.jpg "Figura 4: Concentração do composto A em ambos os reatores.")
 
-**Figura 4: Concentração do composto A em ambos os reatores.**
+![Conversão em ambos os reatores](/images/cstr_serie/fig5.jpg "Figura 5: Conversão em ambos os reatores.")
 
-![Conversão em ambos os reatores](/images/cstr_serie/fig5.jpg "Conversão em ambos os reatores.")
-
-**Figura 5: Conversão em ambos os reatores.**
-
-![Diagrama Xcos](/images/cstr_serie/fig6.jpg "Diagrama do modelo utilizado no Xcos.")
-
-**Figura 6: Diagrama do modelo utilizado no Xcos.**
+![Diagrama Xcos](/images/cstr_serie/fig6.jpg "Figura 6: Diagrama do modelo utilizado no Xcos.")
 
 [Baixe o arquivo da Figura 6 aqui](https://github.com/rafaelbeloduarte/cstr_serie)
 
