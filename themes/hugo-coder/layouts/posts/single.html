@@ -28,6 +28,9 @@
           {{ with .Page.Params.Authors }}{{ partial "taxonomy/authors.html" . }}{{ end }}
           {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
           {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+          {{ if .Params.toc }}
+          {{.TableOfContents }}
+          {{ end }}
         </div>
       </header>
 
