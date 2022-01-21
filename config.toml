@@ -57,8 +57,8 @@ pygmentscodefencesguesssyntax = true
 #     url = "https://www.linkedin.com/in/rafaelbeloduarte/"
 [[params.social]]
     name = "Lattes"
-    icon = "fas fa-user-graduate"
-    weight = 3
+    icon = "fas fa-university fa-2x"
+    weight = 2
     url = "http://lattes.cnpq.br/7196186096336881"
 
 ## Menu links
@@ -123,12 +123,12 @@ pygmentscodefencesguesssyntax = true
         [languages.pt-br.menu]
 
             [[languages.pt-br.menu.main]]
-            name = "Blog"
+            name = "Artigos"
             weight = 1
             url = "/posts/"
 
             [[languages.pt-br.menu.main]]
-            name = "Tags"
+            name = "Etiquetas"
             weight = 2
             url = "/tags/"
 

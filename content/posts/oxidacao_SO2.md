@@ -95,7 +95,7 @@ A alimentação é dada como $7900 lbmol.h^{-1}$, à pressão inicial de $2 atm$
 |  				Viscosidade 			                                  |  				$\mu$ 			       |  				0,090 			    |  				$lb.ft^{-1}.h^{-1}$ 			       |
 |  				Coeficiente global de transferência de calor 			 |  				$U$ 			       |  				10 			       |  				$Btu.h^{-1}.ft^{-2}.^{o}R^{-1}$ 			 |
 |  				Área de seção transversal de um tubo 			         |  				$A_C$ 			      |  				0,0422 			   |  				$ft^2$ 			               |
-|  				Fator de conversão força-massa 			               |  				$g_c$ 			      |  				4,17*E8 			 |  				$lbm.ft.lbf^{-1}.h^{-2}$ 			  |
+|  				Fator de conversão força-massa 			               |  				$g_c$ 			      |  				4,17E8 			 |  				$lbm.ft.lbf^{-1}.h^{-2}$ 			  |
 |  				Densidade do leito 			                           |  				$\rho_b$ 			      |  				33,8 			     |  				$lb.ft^{-3}$ 			           |
 
 ### Balanço de Massa

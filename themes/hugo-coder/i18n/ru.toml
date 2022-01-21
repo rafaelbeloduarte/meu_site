@@ -1,15 +1,26 @@
-[category]
-other = "категория"
+[categories]
+one = "категория"
+other = "categories"
 
-[tag]
-other = "тэг"
+[tags]
+one = "тэг"
+other = "tags"
 
 [series]
-other = "серии"
+one = "серии"
+other = "series"
+
+[authors]
+one = "автор"
+other = "authors"
+
+[posts]
+other = "статьи"
 
 [reading_time]
 one = "Читать одну минуту"
-other = "Читать около {{ .Count }} минут"
+few = "Читать около {{ .Count }} минут"
+many = "Читать около {{ .Count }} минут"
 
 [page_not_found]
 other = "Страница не найдена"
@@ -22,3 +33,27 @@ other = "Можете вернуться обратно на <a href=\"{{ . }}\"
 
 [powered_by]
 other = "Работает на"
+
+[see_also]
+other = "Также смотреть"
+
+[note]
+other = "note"
+
+[tip]
+other = "tip"
+
+[example]
+other = "example"
+
+[question]
+other = "question"
+
+[info]
+other = "info"
+
+[warning]
+other = "warning"
+
+[error]
+other = "error"
