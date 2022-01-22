@@ -33,7 +33,7 @@ Bibliotecas requeridas se não for utilizar o executável: `tkinter`, `pyserial`
 
 Instruções para instalação do [interpretador](https://www.python.org/) podem ser encontradas facilmente em mecanismos de busca. Muitas distribuições Linux já o possuem por padrão.
 
-Se deseja gerar sua própria versão executável, clone ou baixe o repositório do Github e use o [Pyinstaller](https://www.pyinstaller.org/).
+Se deseja gerar sua própria versão executável, clone ou baixe o repositório do Github e use o [Pyinstaller](https://pypi.org/project/pyinstaller/).
 
 ## Código
 
