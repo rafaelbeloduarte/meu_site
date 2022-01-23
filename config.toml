@@ -61,24 +61,6 @@ pygmentscodefencesguesssyntax = true
     weight = 2
     url = "http://lattes.cnpq.br/7196186096336881"
 
-## Menu links
-#[[menu.main]]
-#    name = "Blog"
-#    weight = 1
-#    url  = "/posts/"
-#[[menu.main]]
-#	name = "Tags"
-#	weight = 2
-#	url  = "/tags/"
-#[[menu.main]]
-#    name = "Currículo"
-#    weight = 3
-#    url  = "/cv"
-#[[menu.main]]
-#    name = "Contato"
-#    weight = 4
-#    url  = "/contato"
-
 [languages]
     [languages.en]
         languagename = "English"
@@ -101,7 +83,7 @@ pygmentscodefencesguesssyntax = true
             [[languages.en.menu.main]]
             name = "Publications"
             weight = 20
-            url = "/publicacoes/"
+            url = "/publications/"
 
             [[languages.en.menu.main]]
             name = "Tags"
@@ -135,7 +117,7 @@ pygmentscodefencesguesssyntax = true
             [[languages.pt-br.menu.main]]
             name = "Publicações"
             weight = 20
-            url = "/publicacoes/"
+            url = "/publications/"
             
             [[languages.pt-br.menu.main]]
             name = "Etiquetas"
