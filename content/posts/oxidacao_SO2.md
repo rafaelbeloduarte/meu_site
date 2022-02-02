@@ -161,24 +161,24 @@ $$
 Inserindo a Equação \ref{eq14} na \ref{eq11}, utilizando a Tabela 2 para abrir $F_A$ e sabendo da lei dos gases ideais que $C_A = P_A/(RT)$:
 
 $$
-P_A = P_A0 \frac{ (1-X) }{ (1-0,055X) } \frac{ P }{ P_0 }
+P_A = P_{A0} \frac{ (1-X) }{ (1-0,055X) } \frac{ P }{ P_0 }
 \label{eq15} \tag{15}
 $$
 
 Da mesma forma encontram-se as pressões parciais para $B$, $C$ e $I$:
 
 $$
-P_B = P_A0 \frac{ (0,91-0,5X) }{ (1-0,055X) } \frac{ P }{ P_0 }
+P_B = P_{A0} \frac{ (0,91-0,5X) }{ (1-0,055X) } \frac{ P }{ P_0 }
 \label{eq16} \tag{16}
 $$
 
 $$
-P_C = P_A0 \frac{ X }{ (1-0,055X) } \frac{ P }{ P_0 }
+P_C = P_{A0} \frac{ X }{ (1-0,055X) } \frac{ P }{ P_0 }
 \label{eq17} \tag{17}
 $$
 
 $$
-P_I = P_A0 \frac{ 7,18 }{ (1-0,055X) } \frac{ P }{ P_0 }
+P_I = P_{A0} \frac{ 7,18 }{ (1-0,055X) } \frac{ P }{ P_0 }
 \label{eq18} \tag{18}
 $$
 
