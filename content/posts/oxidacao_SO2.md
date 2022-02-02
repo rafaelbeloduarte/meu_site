@@ -301,7 +301,7 @@ $$
 \label{eq34} \tag{34}
 $$
 
-Onde $A$ é a área de troca térmica ($2 \pi r L = 14,567 ft^2$), e $T_a$ a temperatura do líquido de troca resfriamento ($1264,67 ^oR$).
+Onde $A$ é a área de troca térmica ($2 \pi r L = 14,567 ft^2$), e $T_a$ a temperatura do líquido de troca térmica ($1264,67 ^oR$).
 
 As entalpias estão relacionadas com a entalpia de formação a uma temperatura de referência ($T_R$), para um sistema sem mudança de fase, da seguinte forma:
 
