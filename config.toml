@@ -14,9 +14,9 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Rafael Belo Duarte"
-#    info = "Engenheiro Químico"
+    info = "Engenheiro Químico"
 #    description = "Aqui encontrarás meu currículo e projetos realizados."
-#    keywords = "blog,engenharia,engenharia química"
+    keywords = "blog,engenharia,engenharia química"
     avatarurl = "img/icon_32.png"
     
     dateformat = "02/01/2006"
