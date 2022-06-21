@@ -48,7 +48,7 @@ A amostra líquida foi analisada em um cromatógrafo da Agilent Technologies mod
 
 ### Dimensionamento da coluna de destilação
 
-Utilizando-se o software ChemSep (versão 8) para a realização dos balanços de massa e energia, partiu-se de uma coluna com 16 estágios, vazão de produto de fundo de 415,86 Kmol/dia, razão de refluxo igual a 8, condensador parcial com retirada de produto na forma de vapor, um refervedor parcial com saída de produto líquido e saídas de 50% de vapor nos estágios 5 e 11, a alimentação entra no estágio 9 a 240,56 ºC. Defininiu-se um espassamento de 0,5 m entre os pratos. Não avaliou-se queda de pressão, portanto utilizou-se  pressão constante a 1 atm. 
+Utilizando-se o software ChemSep (versão 8) para a realização dos balanços de massa e energia, partiu-se de uma coluna com 16 estágios, vazão de produto de fundo de 415,86 Kmol/dia, razão de refluxo igual a 8, condensador parcial com retirada de produto na forma de vapor, um refervedor parcial com saída de produto líquido e saídas de 50% de vapor nos estágios 5 e 11, a alimentação entra no estágio 9 a 240,56 ºC. Definiu-se um espassamento de 0,5 m entre os pratos. Não avaliou-se queda de pressão, portanto utilizou-se  pressão constante a 1 atm. 
 Os produtos foram denominados de acordo com suas temperaturas de ebulição. Segundo Zandonai (2016)[^fn2], tem-se como gasolina o que está entre 36,85 e 176,85 ºC, querosene entre 176,85 e 245,85 ºC e diesel na faixa de 245,85 a 344,85 ºC, a uma pressão de 1 atm.
 
 [Topo](#top)
