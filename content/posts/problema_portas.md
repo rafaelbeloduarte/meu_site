@@ -42,7 +42,7 @@ Podemos experimentar com o problema usando o seguinte algoritmo:
 
 Isso nos dará a proporção de sucessos. Em `python` podemos escrever o código abaixo. Iterando 1 milhão de vezes, a proporção é muito próxima a 2/3: 0,667355.
 
-```
+```python
 import random
 
 n = 1000000
