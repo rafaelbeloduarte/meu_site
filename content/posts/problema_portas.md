@@ -1,9 +1,9 @@
 +++ 
 draft = false
 date = 2022-08-18T15:21:04-03:00
-title = "O Problema das Portas"
+title = "O Problema de Monty Hall"
 description = ""
-slug = "problema-das-portas" 
+slug = "problema-de-monty-hall" 
 tags = ["estatística", "probabilidade"]
 categories = []
 externalLink = ""
@@ -21,7 +21,7 @@ Depois que você fez a escolha uma das portas onde não há nada é aberta e é 
 
 O que é mais vantajoso? Trocar ou não trocar? Ou não faz diferença?
 
-Meu primeiro instinto, como o das maioria das pessoas segundo o autor, é que não importa se eu trocar ou não, agora nós temos apenas duas portas e minha probabilidade de ganhar é 1/2.
+Meu primeiro instinto, como o da maioria das pessoas segundo o autor, é que não importa se eu trocar ou não, agora nós temos apenas duas portas e minha probabilidade de ganhar é 1/2.
 
 Mas isso não é verdade, a probabilidade de ganhar se eu trocar de porta é 2/3! Enquanto que se eu não trocar, continuo com a probabilidade inicial de 1/3.
 
