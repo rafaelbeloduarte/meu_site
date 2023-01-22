@@ -1,11 +1,13 @@
 +++ 
 draft = false
 date = 2019-09-01
-title = "	PIMENTA, J. L. C. W. ; CAMARGO, M. O. ; DUARTE, R. B. ; SANTOS, O. A. A. ; JORGE, L. M. M. . Comparação da Desoxigenação de Ácido Oleico em Fase Líquida e Fase Gasosa com Catalisador Aerogel. In: Congresso Brasileiro de Catálise, 2019, São Paulo. SBCAT, 2019."
-description = ""
+title = "Comparação da Desoxigenação de Ácido Oleico em Fase Líquida e Fase Gasosa com Catalisador Aerogel"
+authors = "PIMENTA, J. L. C. W. ; CAMARGO, M. O. ; DUARTE, R. B. ; SANTOS, O. A. A. ; JORGE, L. M. M."
+journal = "Congresso Brasileiro de Catálise"
+vol_page_year = "2019"
 slug = "cbcat2019" 
 tags = ["publicações"]
 categories = []
-externalLink = "http://sisconev.com.br/uploads/CBCat2019/20190428153334000001647.pdf"
+externalLink = "https://drive.google.com/file/d/1oSj4S7A06qzKaXchL3xhFZpmY7lG7QJc/view?usp=sharing"
 series = []
 +++

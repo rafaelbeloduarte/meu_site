@@ -110,7 +110,7 @@ pygmentscodefencesguesssyntax = true
         [languages.pt-br.menu]
 
             [[languages.pt-br.menu.main]]
-            name = "Artigos"
+            name = "Textos"
             weight = 10
             url = "/posts/"
 

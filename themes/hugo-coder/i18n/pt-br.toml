@@ -15,7 +15,7 @@ one = "autor"
 other = "autores"
 
 [posts]
-other = "artigos"
+other = "Textos"
 
 [publications]
 other = "publicações"

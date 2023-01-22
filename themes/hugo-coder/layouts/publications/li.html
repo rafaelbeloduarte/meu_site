@@ -1,4 +1,9 @@
 <li>
   <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-  <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}" target="_blank">{{ .Title }}</a>
+  <dl>
+      <dt>
+		  <a href="{{ .Params.externalLink | default .RelPermalink }}" target="_blank">{{ .Title }}</a>
+	  </dt>
+      <dd>{{ .Description }} {{ .Params.authors }} <b>{{ .Params.journal }}</b>, {{ .Params.vol_page_year }}.</dd>
+    </dl> 
 </li>

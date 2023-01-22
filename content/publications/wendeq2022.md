@@ -1,12 +1,15 @@
 +++ 
 draft = false
 date = 2022-07-25
-title = "DUARTE, R. B.; PIMENTA, J. L. C. W. ; JORGE, L. M. M. . DESAFIOS NO DESENVOLVIMENTO DE CATALISADORES PARA A HIDRODESOXIGENAÇÃO DO GLICEROL. In: II Web Encontro Nacional de Engenharia Química, 2022. Anais do Web Encontro Nacional de Engenharia Química, 2022."
-description = ""
+title = "Desafios no Desenvolvimento de Catalisadores para a Hidrodesoxigenação do Glicerol"
+authors = "DUARTE, R. B.; PIMENTA, J. L. C. W. ; JORGE, L. M. M."
+journal = "II Web Encontro Nacional de Engenharia Química"
+vol_page_year = "2022"
 slug = "wendeq2022" 
 tags = ["publicações"]
 categories = []
 externalLink = "http://dx.doi.org/10.29327/166591.2-10"
 series = []
+image = "/publications/images/wendeq2022.png"
 +++
 
