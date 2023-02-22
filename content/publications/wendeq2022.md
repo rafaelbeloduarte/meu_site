@@ -2,7 +2,7 @@
 draft = false
 date = 2022-07-25
 title = "Desafios no Desenvolvimento de Catalisadores para a Hidrodesoxigenação do Glicerol"
-authors = "DUARTE, R. B.; PIMENTA, J. L. C. W. ; JORGE, L. M. M."
+authors = "DUARTE, R. B., PIMENTA, J. L. C. W. ; JORGE, L. M. M."
 journal = "II Web Encontro Nacional de Engenharia Química"
 vol_page_year = "2022"
 slug = "wendeq2022" 
