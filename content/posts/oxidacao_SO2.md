@@ -461,6 +461,9 @@ Confeccionando um gráfico da conversão final em função da temperatura inicia
 
 Identificada a temperatura ótima de alimentação de $1508 ^oR$, podemos produzir o gráfico da Figura 5, com os perfis de temperatura e conversão. A conversão final é 91,37% e, semelhante às Figuras 2 e 3, a conversão de equilíbrio cai para um mínimo de 68% em $0,57 ft$, devido ao aumento brusco na temperatura até um máximo de $1636 ^oR$, quando a concentração do produto já é alta o suficiente para que a reação inversa se torne importante.
 
+
+![figura5](/images/oxidacao_SO2/figura5.png "Figura 5: Perfis de conversão, conversão de equilíbrio e temperatura ao longo do reator para temperatura de alimentação de $1508 ^oR$.")
+
 O autor [^fn1] nos informa que a temperatura não deve exceder $1585 ^oR$ em nenhum ponto do reator, devido a sinterização do catalisador. Respeitando esta restrição, não será possível operar o reator na temperatura ótima de alimentação, pois dos $0,13 ft$ aos $1,55 ft$ a temperatura excede o limite.
 
 Para finalizar, a máxima temperatura de entrada possível é $1435 ^oR$, $73 ^oR$ abaixo da temperatura que produz a máxima conversão global. Mas se compararmos as conversões de saída obtidas nas duas temperaturas, 91,37% para a aquela e 91,18% para esta, percebe-se que o aumento na conversão é diminuto, e não há grandes perdas se a alimentação for realizada a $1435 ^oR$. Ainda limitada pela conversão de equilíbrio, nesta temperatura de entrada, 90% da conversão é atingida nos primeiros $3,67 ft$ do reator.
