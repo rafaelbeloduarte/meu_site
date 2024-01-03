@@ -68,113 +68,113 @@ seguinte balanço material:
 
 $$
 \frac{d(C_{A1} V_1)}{dt} = F_0 C_{A0} - F_1 C_{A1} + V_1 r_{A1}
-\label{eq1} \tag{1}
+\tag{1}
 $$
 
 Como $-r{_A}{_1} = kC{_A}{_1}$, os volumes são constantes e as vazões são todas iguais a $F_0$:
 
 $$
 {V{_1}} \frac{d(C{_A}{_1})}{dt} = F_0 C{_A}{_0} - {F_0} C{_A}{_1} - {V_1} k C{_A}{_1}
-\label{eq2} \tag{2}
+\tag{2}
 $$
 
 Substituindo os valores conhecidos:
 
 $$
 10m{^3} \frac{d(C{_A}{_1})}{dt} = 2 \frac{m{^3}}{h} 300 \frac{mol}{m³} - 2 \frac{m{^3}}{h} C{_A}{_1} - 10m³ 1h{^-}{^1} C{_A}{_1} 
-\label{eq3} \tag{3}
+\tag{3}
 $$
 
-Tendo em mente que as unidades utilizadas serão as apresentadas na Equação \ref{eq3}, de agora em diante elas serão omitidas por fins de simplicidade.
+Tendo em mente que as unidades utilizadas serão as apresentadas na Equação 3, de agora em diante elas serão omitidas por fins de simplicidade.
 
-Reorganizando a Equação \ref{eq3}:
+Reorganizando a Equação 3:
 
 $$
 \frac{5}{ 6 } \frac{ dC{_A}{_1} }{ dt } + C{_A}{_1} = 50
-\label{eq4} \tag{4}
+\tag{4}
 $$
 
-A Equação \ref{eq4} descreve o comportamento dinâmico do primeiro reator.
+A Equação 4 descreve o comportamento dinâmico do primeiro reator.
 
 Realizando um balanço material em um volume de controle que envolve o segundo reator, temos:
 
 $$
 \frac{d(C{_A}{_2} V_2)}{dt} = F_1 C{_A}{_1} - F_2 C{_A}{_2} + V_2 r{_A}{_2}
-\label{eq5} \tag{5} 
+\tag{5} 
 $$
 
 Como $V_2$ é constante, as vazões são todas iguais (consideração 6) e $-r{_A}{_2} = kC{_A}{_2}$:
 
 $$
 V_2 \frac{d(C{_A}{_2})}{dt} = F_0 C{_A}{_1} - F_0 C{_A}{_2} - V_2 k C{_A}{_2} 
-\label{eq6} \tag{6}
+\tag{6}
 $$
 
 Substituindo os valores conhecidos:
 
 $$
 5 \frac{d(C{_A}{_2})}{dt} = 2 C{_A}{_1} - 2 C{_A}{_2} - 5.1.C{_A}{_2} 
-\label{eq7} \tag{7}
+\tag{7}
 $$
 
 Que pode ser reorganizada como:
 
 $$
 \frac{5}{7} \frac{d(C{_A}{_2})}{dt} + C{_A}{_2} = \frac{ 2 }{ 7 } C{_A}{_1}
-\label{eq8} \tag{8}
+\tag{8}
 $$
 
-A Equação \ref{eq8} descreve o comportamento dinâmico do reator dois.
+A Equação 8 descreve o comportamento dinâmico do reator dois.
 
-Pode-se partir agora para as soluções analíticas das Equações \ref{eq4} e \ref{eq8}. Começando pela Equação \ref{eq4}, uma EDO linear não-homogênea a coeficientes constantes que pode ser resolvida pelo método dos coeficientes a determinar. Sua equação característica é:
+Pode-se partir agora para as soluções analíticas das Equações 4} e 8}. Começando pela Equação 4, uma EDO linear não-homogênea a coeficientes constantes que pode ser resolvida pelo método dos coeficientes a determinar. Sua equação característica é:
 
 $$
 \frac{5}{6} \lambda + 1 = 0
-\label{eq9} \tag{9}
+\tag{9}
 $$
 
 Que fornece $\lambda = -1,2$. Com solução homogênea:
 
 $$
 C{_A}{_1}{_H} ( t ) = Ce{^{ -1,2t }}
-\label{eq10} \tag{10}
+\tag{10}
 $$
 
 A solução particular é uma constante:
 
 $$
 C{_A}{_1}{_P} = B
-\label{eq11} \tag{11}
+\tag{11}
 $$
 
 Que leva a:
 
 $$
 \frac{dC{_A}{_1}{_P}}{ dt } = 0
-\label{eq12} \tag{12}
+\tag{12}
 $$
 
-Aplicando \ref{eq11} e \ref{eq12} em \ref{eq4} encontra-se $B = 50 mol.m{^-}{^3}$.
+Aplicando 11} e 12} em 4} encontra-se $B = 50 mol.m{^-}{^3}$.
 
 Portanto,
 
 $$
 C{_A}{_1} ( t ) = C{_A}{_1}{_H} + C{_A}{_1}{_P} = Ce{^{ -1,2t }} + 50
-\label{eq13} \tag{13}
+\tag{13}
 $$
 
-Para encontrar $C$ utiliza-se a condição inicial. No tempo $t = 0$ não havia reagente nos tanques ($C{_A}{_1}(0) = 0$), e então $ C = -50 mol.m{^-}{^3}$. A solução da Equação \ref{eq4} é:
+Para encontrar $C$ utiliza-se a condição inicial. No tempo $t = 0$ não havia reagente nos tanques ($C{_A}{_1}(0) = 0$), e então $ C = -50 mol.m{^-}{^3}$. A solução da Equação 4 é:
 
 $$
 C{_A}{_1} ( t ) = 50 ( 1 - e{^{ -1,2t }} )
-\label{eq14} \tag{14}
+\tag{14}
 $$
 
-A Equação \ref{eq4} pode ser resolvida também por Laplace, aplicando a transformada:
+A Equação 4 pode ser resolvida também por Laplace, aplicando a transformada:
 
 $$
 s C'{_A}{_1} (s) - C{_A}{_1} ( 0 ) + 1,2C'{_A}{_1} ( s ) = \frac{60}{ s }
-\label{eq15} \tag{15}
+\tag{15}
 $$
 
 Onde o sinal $(‘)$ é apenas para fazer referência ao domínio de Laplace e diferenciá-lo do domínio do tempo.
@@ -183,103 +183,103 @@ Sabendo que $C{_A}{_1}(0)$ é igual a $0$ e simplificando:
 
 $$
 C'{_A}{_1} (s) = 50 \frac{ 1 }{ s(\frac{s}{1,2} + 1) }
-\label{eq16} \tag{16}
+\tag{16}
 $$
 
-A transformada inversa da Equação \ref{eq16} nos leva à Equação \ref{eq14} novamente, confirmando o resultado obtido pelo método dos coeficientes a determinar.
+A transformada inversa da Equação 16 nos leva à Equação 14 novamente, confirmando o resultado obtido pelo método dos coeficientes a determinar.
 
-Conhecendo $C{_A}{_1}(t)$ é possível resolver a Equação \ref{eq8} para o reator 2. Substituindo \ref{eq14} em \ref{eq8}:
+Conhecendo $C{_A}{_1}(t)$ é possível resolver a Equação 8 para o reator 2. Substituindo 14} em 8}:
 
 $$
 \frac{5}{7} \frac{d(C{_A}{_2})}{dt} + C{_A}{_2} = \frac{ 100 }{ 7 } - \frac{ 100 }{ 7 } e{^{ -1,2t }}
-\label{eq17} \tag{17}
+\tag{17}
 $$
 
 Novamente pelo método dos coeficientes a determinar, a equação característica para a solução homogênea é:
 
 $$
 \frac{ 5 }{ 7 } \lambda + 1 = 0
-\label{eq18} \tag{18}
+\tag{18}
 $$
 
 Que leva a $\lambda = -1,4$. E à solução homogênea:
 
 $$
 C{_A}{_2}{_H} ( t ) = C{_1} e{^{ -1,4t }}
-\label{eq19} \tag{19}
+\tag{19}
 $$
 
 A equação particular é da forma:
 
 $$
 C{_A}{_2}{_P} ( t ) = A -B e{^{ -1,2t }}
-\label{eq20} \tag{20}
+\tag{20}
 $$
 
-Derivando \ref{eq20}:
+Derivando 20}:
 
 $$
 \frac{ d(C{_A}{_2}{_P})}{ dt } = 1,2 B e{^{ -1,2t }}
-\label{eq21} \tag{21}
+\tag{21}
 $$
 
-Aplicando \ref{eq20} e \ref{eq21} em \ref{eq17} e agrupando os termos:
+Aplicando 20} e 21} em 17} e agrupando os termos:
 
 $$
 A - \frac{ B }{ 7 } e{^{ -1,2t }} = \frac{ 100 }{ 7 } - \frac{ 100 }{ 7 } e{^{ -1,2t }}
-\label{eq22} \tag{22}
+\tag{22}
 $$
 
-Portanto, comparando os dois lados da Equação \ref{eq22} percebe-se que $A = \frac{100}{7} mol.m{^-}{^3}$  e $B = 100 mol.m{^-}{^3}$. Isso leva a:
+Portanto, comparando os dois lados da Equação 22 percebe-se que $A = \frac{100}{7} mol.m{^-}{^3}$  e $B = 100 mol.m{^-}{^3}$. Isso leva a:
 
 $$
 C{_A}{_2}{_P} ( t ) = \frac{100}{7} -100 e{^{ -1,2t }}
-\label{eq23} \tag{23}
+\tag{23}
 $$
 
-E a solução da Equação \ref{eq8} é, portanto:
+E a solução da Equação 8 é, portanto:
 
 $$
 C{_A}{_2} ( t ) = C{_A}{_2}{_H} + C{_A}{_2}{_P} = C_1 e{^{ -1,4t }} - 100 e{^{ -1,2t }} + \frac{ 100 }{ 7 }
-\label{eq24} \tag{24}
+\tag{24}
 $$
 
-Como a condição inicial é $C{_A}{_2}(0) = 0$, encontra-se $C{_1} = \frac{600}{7} mol.m{^-}{^3}$. Substituindo $C{_1}$ na Equação \ref{eq24}:
+Como a condição inicial é $C{_A}{_2}(0) = 0$, encontra-se $C{_1} = \frac{600}{7} mol.m{^-}{^3}$. Substituindo $C{_1}$ na Equação 24:
 
 $$
 C{_A}{_2} ( t ) = \frac{600}{7} e{^{ -1,4t }} - 100 e{^{ -1,2t }} + \frac{ 100 }{ 7 }
-\label{eq25} \tag{25}
+\tag{25}
 $$
 
-A Equação \ref{eq25} é a solução analítica da Equação \ref{eq8}, que pode ser resolvida também aplicando as transformadas de Laplace termo a termo:
+A Equação 25 é a solução analítica da Equação 8, que pode ser resolvida também aplicando as transformadas de Laplace termo a termo:
 
 $$
 0,71429 [ {sC'{_A}{_2} (s) - C{_A}{_2} (0)} ] + C'{_A}{_2} ( s ) = \frac{ 14,286 }{ s } - 14,286 \frac{ 1 }{ s+1,2 }
-\label{eq26} \tag{26}
+\tag{26}
 $$
 
-Rearranjando \ref{eq26}:
+Rearranjando 26}:
 
 $$
 C'{_A}{_2} (s) = \frac{ 14,286 }{ s(0,71429s + 1) } - 11,905 \frac{ 1 }{ (\frac{s}{1,2} + 1) (0,71429s+1)}
-\label{eq27} \tag{27}
+\tag{27}
 $$
 
-A transformada inversa da Equação \ref{eq27} é:
+A transformada inversa da Equação 27 é:
 
 $$
 C{_A}{_2} ( t ) = 14,286 ( 1 - e{^{-1,4t}} ) - 11,905 \frac{1}{\frac{1}{1,2} - 0,71429} ( e{^{-1,2t}} - e{^{-1,4t}} )
-\label{eq28} \tag{28}
+\tag{28}
 $$
 
 Rearranjando:
 
 $$
 C{_A}{_2} ( t ) = 85,714 e{^{ -1,4t }} - 100 e{^{ -1,2t }} + 14,286
-\label{eq29} \tag{29}
+\tag{29}
 $$
 
-Observando que $\frac{600}{7} ≈ 85,714$ e $\frac{100}{7} ≈ 14,286$, chegamos novamente à Equação \ref{eq25}, confirmando nossa solução.
+Observando que $\frac{600}{7} ≈ 85,714$ e $\frac{100}{7} ≈ 14,286$, chegamos novamente à Equação 25, confirmando nossa solução.
 
 Com as soluções prontas pode-se traçar um gráfico com os comportamentos das concentrações em cada reator, na Figura 2 pode-se observar que a concentração no CSTR 1 é sempre maior que no segundo, como é de se esperar, pois o reator 1 é alimentado primeiro e parte do reagente é consumido antes que se alimente o reator 2.
 
@@ -289,19 +289,19 @@ As conversões, o que reage pelo que é alimentado, podem ser calculadas como:
 
 $$
 X{_1} = \frac{V{_1}kC{_A}{_1}}{ F_0 C{_A}{_0} }
-\label{eq30} \tag{30}
+\tag{30}
 $$
 
 $$
 X{ _2 } = X{_1} + \frac{V{ _2 }kC{_A}{_2}}{ F_0 C{_A}{_0} }
-\label{eq31} \tag{31}
+\tag{31}
 $$
 
 Ambas definidas com relação à alimentação $F_0$.
 
 ![Cxt](/images/cstr_serie/fig2.jpg "Figura 2: Dependência da concentração com o tempo.")
 
-As Equações \ref{eq30} e \ref{eq31} nos levam, no estado estacionário, a um $X_1$ intermediário de $0,8333$ e uma conversão final $X_2$ igual a $0,9524$.
+As Equações 30} e 31} nos levam, no estado estacionário, a um $X_1$ intermediário de $0,8333$ e uma conversão final $X_2$ igual a $0,9524$.
 
 Pode-se traçar também um gráfico relacionando o tempo com a conversão, como na Figura 3. Observa-se que no início as duas conversões são muito próximas, isto é consequência da definição adotada, que é sempre em relação à alimentação original. No primeiro instante o termo de consumo no reator dois é nulo e a conversão final é igual à intermediária. Conforme o tempo aumenta, reagente passa a entrar no segundo reator e o termo da conversão final começa a se distanciar da conversão intermediária.
 
@@ -325,7 +325,7 @@ Em estado estacionário a solução numérica resulta em $C{_A}{_1} = 50 mol.m{^
 
 Para comparação dos dados obtidos numericamente partimos da analise de estado estacionário do modelo desenvolvido como segue:
 
-Da Equação \ref{eq4}: $\frac{5}{ 6 } \frac{ dC{_A}{_1} }{ dt } + C{_A}{_1} = 50$, em estado estacionário temos:
+Da Equação 4: $\frac{5}{ 6 } \frac{ dC{_A}{_1} }{ dt } + C{_A}{_1} = 50$, em estado estacionário temos:
 
 $$
 \frac{ dC{_A}{_1} }{ dt }  = 0
@@ -333,7 +333,7 @@ $$
 
 Então: $\frac{5}{ 6 } 0 + {\bar C}{_A}{_1} = 50$, que leva a ${\bar C}{_A}{_1} = 50$.
 
-Da equação \ref{eq8}: $\frac{5}{7}\frac{d(C{_A}{_2})}{dt} + C{_A}{_2} = \frac{ 2 }{ 7 } C{_A}{_1}$ e da consideração de estado estacionário:
+Da equação 8: $\frac{5}{7}\frac{d(C{_A}{_2})}{dt} + C{_A}{_2} = \frac{ 2 }{ 7 } C{_A}{_1}$ e da consideração de estado estacionário:
 
 $$
 \frac{d(C{_A}{_2})}{dt} = 0

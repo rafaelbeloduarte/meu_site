@@ -63,15 +63,15 @@ pygmentscodefencesguesssyntax = true
 
 [languages]
     [languages.en]
-        languagename = "English"
-        dateformat = "Jan 02, 2006"
+      languagename = "English"
         
         [languages.en.params]
             author = "Rafael Belo Duarte"
             info = "Chemical Engineer"
-            description = "Here you will find my resume and projects." 
+            description = "My papers, essays, and classroom aid material." 
             keywords = "blog,engineering,chemical engineering"
             footercontent = "rafaelbeloduarte@pm.me"
+            dateformat = "Jan 02, 2006"
 
         [languages.en.menu]
 
@@ -97,15 +97,15 @@ pygmentscodefencesguesssyntax = true
 
 
     [languages.pt-br]
-        languagename = "Português"
-        title = "Rafael Belo Duarte"
+       languagename = "Português"
 
         [languages.pt-br.params]
             author = "Rafael Belo Duarte"
             info = "Engenheiro Químico"
-            description = "Aqui encontrarás meu currículo e projetos realizados."
+            description = "Meus artigos, textos, e material de auxílio em sala de aula."
             keywords = "blog,engenharia,engenharia química"
             footercontent = "rafaelbeloduarte@pm.me"
+            title = "Rafael Belo Duarte"
 
         [languages.pt-br.menu]
 

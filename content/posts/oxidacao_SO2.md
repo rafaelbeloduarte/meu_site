@@ -26,33 +26,33 @@ A reação de interesse deste trabalho é a oxidação do $SO_2$:
 
 $$
 SO_2 + \frac{ 1 }{ 2 } O_2 + Inerte ⇌ SO_3 + Inerte
-\label{eq1} \tag{1}
+\tag{1}
 $$
 
 Para simplificar a notação chamaremos o $SO_2$, $O_2$ e $SO_3$ de $A$, $B$ e $C$, nesta ordem.
 
 $$
 A + \frac{ 1 }{ 2 } B + I ⇌ C + I
-\label{eq2} \tag{2}
+\tag{2}
 $$
 
 Sua lei de velocidade foi estudada por Eklund e apresentada por Fogler [^fn1] em seu livro texto:
 
 $$
 -{r_A}' = k \sqrt{ \frac{P_A}{P_C} } \left [ P_B - \left ( \frac{ P_C }{K_P P_A} \right )^2  \right ] 
-\label{eq3} \tag{3}
+\tag{3}
 $$
 
-A lei de velocidade da Equação \ref{eq3} é válida entre 1278 ºR e 1489 ºR, e pode ser utilizada quando a conversão é maior que 5%; a conversões menores que 5% a lei de velocidade é aquela para a conversão de 5%. Os parâmetros $k$ e $K_p$ são a velocidade específica de reação e a constante de equilíbrio, dados abaixo, onde $T$ é a temperatura e $R$ a constante dos gases ideais ($1,987 Btu.lbmol^{-1}.^{o}R^{-1}$).
+A lei de velocidade da Equação 3 é válida entre 1278 ºR e 1489 ºR, e pode ser utilizada quando a conversão é maior que 5%; a conversões menores que 5% a lei de velocidade é aquela para a conversão de 5%. Os parâmetros $k$ e $K_p$ são a velocidade específica de reação e a constante de equilíbrio, dados abaixo, onde $T$ é a temperatura e $R$ a constante dos gases ideais ($1,987 Btu.lbmol^{-1}.^{o}R^{-1}$).
 
 $$
 k = exp \left [ \frac{-176 008}{T} - 110,1 ln(T) + 912,8 \right ]
-\label{eq4} \tag{4}
+\tag{4}
 $$
 
 $$
 K_p = exp \left [ \frac{42 311}{RT} - 11,24 \right ] 
-\label{eq5} \tag{5}
+\tag{5}
 $$
 
 O catalisador foi utilizado na forma de pellets de $8 mm$ de diâmetro e $8 mm$ de comprimento, em um leito de massa específica $33,8 lb.ft^{-3}$.
@@ -65,21 +65,21 @@ Foram selecionados tubos de diâmetro externo $3 in$ e diâmetro interno $2,782 
 
 $$
 N_{tubos} = \frac{3910 ft^3}{ \pi {\left ( \frac{2,782 i n \frac{1ft}{12 i n}} {2} \right )}^2 20 ft } = 4632 tubos
-\label{eq6} \tag{6}
+\tag{6}
 $$
 
 Obtêm-se $4632$ tubos. Assim, a área de seção transversal total ($A_{CT}$) é:
 
 $$
 A_{CT} = { \pi {\left ( \frac{2,782 in \frac{1ft}{12 i n}}{2} \right )}^2 } 4632 tubos = 195,53 ft^2
-\label{eq7} \tag{7}
+\tag{7}
 $$
 
 Conhecendo a velocidade mássica e área de seção transversal obtém-se a vazão de alimentação ($v_0$):
 
 $$
 v_0 = 75  \frac{ ft^3 }{ min . ft^2 } 195,53 ft^2 = 14664,75 \frac{ ft^3 }{ min }
-\label{eq8} \tag{8}
+\tag{8}
 $$
 
 A alimentação é dada como $7900 lbmol.h^{-1}$, à pressão inicial de $2 atm$ e frações molares de $0,11$ para o $SO_{2}$, $0,10$ para o $O_{2}$ e $0,79$ para o $N_{2}$. O reator opera em regime permanente e um resumo dos parâmetros é apresentado na Tabela 1.
@@ -108,14 +108,14 @@ Tomando uma quantidade de catalisador $\Delta W$ do reator e aplicando o balanç
 
 $$
 F_A ( W ) - F_A ( W + \Delta W) + {r_A}' \Delta W = 0
-\label{eq9} \tag{9}
+\tag{9}
 $$
 
-Dividindo a Equação \ref{eq6} por $\Delta W$ e tomando o limite quando $\Delta W$ tende a zero, chegamos a:
+Dividindo a Equação 6 por $\Delta W$ e tomando o limite quando $\Delta W$ tende a zero, chegamos a:
 
 $$
 -{\frac{ dF_A }{ dW }} =  -{ r_A }'
-\label{eq10} \tag{10}
+\tag{10}
 $$
 
 Construindo a Tabela Estequiométrica (Tabela 2):
@@ -134,73 +134,73 @@ Escrevendo as concentrações em função da conversão (X):
 
 $$
 C_A = \frac{ F_A }{ v }
-\label{eq11} \tag{11}
+\tag{11}
 $$
 
 Da lei dos gases ideais extrai-se a vazão volumétrica ($v$):
 
 $$
 v = v_0 \frac{ F_T T P_0 }{ F_{T0} T_0 P }
-\label{eq12} \tag{12}
+\tag{12}
 $$
 
 Da Tabela 2 encontra-se que $F_T/F_{T0}$ é:
 
 $$
 \frac{ F_T }{ F_{T0} } = 1 - 0,5 y_{ A0 }X = 1-0,055X
-\label{eq13} \tag{13}
+\tag{13}
 $$
 
-Substituindo a Equação \ref{eq13} na \ref{eq12}:
+Substituindo a Equação 13 na 12:
 
 $$
 v = v_0 { (1 - 0,055X) } \frac{ T }{ T_0 } \frac{ P_0 }{ P }
-\label{eq14} \tag{14}
+\tag{14}
 $$
 
-Inserindo a Equação \ref{eq14} na \ref{eq11}, utilizando a Tabela 2 para abrir $F_A$ e sabendo da lei dos gases ideais que $C_A = P_A/(RT)$:
+Inserindo a Equação 14 na 11, utilizando a Tabela 2 para abrir $F_A$ e sabendo da lei dos gases ideais que $C_A = P_A/(RT)$:
 
 $$
 P_A = P_{A0} \frac{ (1-X) }{ (1-0,055X) } \frac{ P }{ P_0 }
-\label{eq15} \tag{15}
+\tag{15}
 $$
 
 Da mesma forma encontram-se as pressões parciais para $B$, $C$ e $I$:
 
 $$
 P_B = P_{A0} \frac{ (0,91-0,5X) }{ (1-0,055X) } \frac{ P }{ P_0 }
-\label{eq16} \tag{16}
+\tag{16}
 $$
 
 $$
 P_C = P_{A0} \frac{ X }{ (1-0,055X) } \frac{ P }{ P_0 }
-\label{eq17} \tag{17}
+\tag{17}
 $$
 
 $$
 P_I = P_{A0} \frac{ 7,18 }{ (1-0,055X) } \frac{ P }{ P_0 }
-\label{eq18} \tag{18}
+\tag{18}
 $$
 
-Aplicando as Equações \ref{eq15} a \ref{eq18} na Equação \ref{eq3}, com $P_{A0} = 0,22 atm$, obtém-se a velocidade de reação em função da conversão, temperatura e pressão:
+Aplicando as Equações 15 a 18 na Equação 3, com $P_{A0} = 0,22 atm$, obtém-se a velocidade de reação em função da conversão, temperatura e pressão:
 
 $$
 -{ r_A }' = k \sqrt{ \frac{1-X}{X} } \left [ \frac{ (0,20 - 0,11X) }{(1-0,055X)} \frac{P}{P_0} - \left ( \frac{ X }{K_p (1-X)} \right ) ^2 \right ] 
-\label{eq19} \tag{19}
+\tag{19}
 $$
 
-Substituindo a Equação \ref{eq19} no balanço de massa (Equação \ref{eq10}) e observando da Tabela 2 que $dF_A = -F_{A0}dX$ e $F_{A0} {\frac{ dX }{ dW }} =  -{ r_A }'$. Aparece a equação diferencial ordinária do balanço de massa:
+Substituindo a Equação 19 no balanço de massa (Equação 10) e observando da Tabela 2 que $dF_A = -F_{A0}dX$ e $F_{A0} {\frac{ dX }{ dW }} =  -{ r_A }'$. Aparece a equação diferencial ordinária do balanço de massa:
 
 $$
 \frac{dX}{ dW } = \frac{ k }{ F_{A0} } \sqrt{ \frac{1-X}{X} } \left [ \frac{ (0,20 - 0,11X) }{(1-0,055X)} \frac{P}{P_0} - \left ( \frac{ X }{K_p (1-X)} \right ) ^2 \right ] 
-\label{eq20} \tag{20}
+\tag{20}
 $$
 
 A alimentação de $A$ ($F_{A0}$) é:
 
 $$
 F_{A0} = \frac{7900 \frac{ lbmol }{ h } 0,11}{ 4632 tubos } = 0,188 \frac{ lbmol }{ h.tubo }
-\label{eq21} \tag{21}
+\tag{21}
 $$
 
 ### Balanço de Energia
@@ -214,91 +214,91 @@ Portanto, no regime permanente e sem taxa de trabalho:
 
 $$
 F_{entra} E_{entra} - F_{sai} E_{sai} + \dot{ Q } - \dot{W} = 0
-\label{eq22} \tag{22}
+\tag{22}
 $$
 
-Onde $F$ são vazões molares, $E$ taxa de energia, $\dot{Q}$ e $\dot{W}$ taxas de calor e trabalho. Escrevendo a Equação \ref{eq22} em termos das $n$ espécies:
+Onde $F$ são vazões molares, $E$ taxa de energia, $\dot{Q}$ e $\dot{W}$ taxas de calor e trabalho. Escrevendo a Equação 22 em termos das $n$ espécies:
 
 $$
 {\sum_{i=1}^{n} E_{i0} F_{i0}} - { \sum_{i=1}^{n} E_i F_i } + \dot{Q} - \dot{W} = 0
-\label{eq23} \tag{23}
+\tag{23}
 $$
 
 Neste caso, a única contribuição do termo de trabalho é o trabalho de escoamento:
 
 $$
 -\dot{W} = { \sum_{i=1}^{n} F_{i0} P V_{i0}} - { \sum_{i=1}^{n} F_i P V_i }
-\label{eq24} \tag{24}
+\tag{24}
 $$
 
-Substituindo a Equação \ref{eq24} na \ref{eq23} e agrupando os termos:
+Substituindo a Equação 24 na 23 e agrupando os termos:
 
 $$
 { \sum_{i=1}^{n} F_{i0} (E_{i0} + P V_{i0}) } - { \sum_{i=1}^{n} F_i (E_i + PV_i) } + \dot{Q} = 0
-\label{eq25} \tag{25}
+\tag{25}
 $$
 
 O termo de energia ($E_i$) é composto pelas energias interna, cinética e potencial:
 
 $$
 E_i = U_i + \frac{ 1 }{ 2 } {u_i}^2 + gz_i
-\label{eq26} \tag{26}
+\tag{26}
 $$
 
 O reator é fixo no espaço e sua altura é de apenas $20 ft$, portanto é possível desprezar as variações nas energias cinética e potencial:
 
 $$
 E_i = U_i
-\label{eq27} \tag{27}
+\tag{27}
 $$
 
-Então a Equação \ref{eq25} fica:
+Então a Equação 25 fica:
 
 $$
 { \sum_{i=1}^{n} F_{i0} (U_{i0} + P V_{i0}) } - { \sum_{i=1}^{n} F_i (U_i + PV_i) } + \dot{Q} = 0
-\label{eq28} \tag{28}
+\tag{28}
 $$
 
 Sabemos que o termo $U + PV$ é chamado, por conveniência, de entalpia ($H$):
 
 $$
 { \sum_{i=1}^{n} F_{i0} H_{i0} } - { \sum_{i=1}^{n} F_i H_i } + \dot{Q} = 0
-\label{eq29} \tag{29}
+\tag{29}
 $$
 
-Desdobrando as somatórias da Equação \ref{eq29}, para nossas espécies $A$, $B$, $C$ e $I$ (da Tabela 2):
+Desdobrando as somatórias da Equação 29, para nossas espécies $A$, $B$, $C$ e $I$ (da Tabela 2):
 
 $$
 { \sum_{i=1}^{n} F_{i0} H_{i0} } - { \sum_{i=1}^{n} F_i H_i } = ( H_{A0} F_{A0} + H_{B0} F_{B0} + H_{i0} F_{i0} ) - ( F_A H_A + F_B H_B + F_C H_C + F_I H_I )
-\label{eq30} \tag{30}
+\tag{30}
 $$
 
 Em termos da conversão:
 
 $$
 { \sum_{i=1}^{n} F_{i0} H_{i0} } - { \sum_{i=1}^{n} F_i H_i } = F_{A0} [ H_{A0} + \theta_B H_{B0} + \theta_i H_{i0}  - H_A - \theta_B H_B + \theta_i H_i] - F_{A0} X ( -H_A - \frac{1}{2} H_B + H_C )
-\label{eq31} \tag{31}
+\tag{31}
 $$
 
-O termo $( -H_A - \frac{1}{2} H_B + H_C )$ da Equação acima é a entalpia de reação ($\Delta H_{RX}$), inserindo-a na Equação \ref{eq31} e agrupando os termos:
+O termo $( -H_A - \frac{1}{2} H_B + H_C )$ da Equação acima é a entalpia de reação ($\Delta H_{RX}$), inserindo-a na Equação 31 e agrupando os termos:
 
 $$
 { \sum_{i=1}^{n} F_{i0} H_{i0} } - { \sum_{i=1}^{n} F_i H_i } = F_{A0} {\sum_{i=1}^{n} \theta_i (H_{i0} - H_i)} - F_{A0} X \Delta H_{RX}
-\label{eq32} \tag{32}
+\tag{32}
 $$
 
-Substituindo a Equação \ref{eq32} na \ref{eq29}:
+Substituindo a Equação 32 na 29:
 
 $$
 \dot{Q} + F_{A0} {\sum_{i=1}^{n} \theta_i (H_{i0} - H_i)} - F_{A0} X \Delta H_{RX} = 0
-\label{eq33} \tag{33}
+\tag{33}
 $$
 
 A taxa de calor ($\dot{Q}$) vem da lei do resfriamento de Newton.
 
 $$
 \dot{Q} = UA ( T_a - T )
-\label{eq34} \tag{34}
+\tag{34}
 $$
 
 Onde $A$ é a área de troca térmica ($2 \pi r L = 14,567 ft^2$), e $T_a$ a temperatura do líquido de troca térmica ($1264,67 ^oR$).
@@ -307,17 +307,17 @@ As entalpias estão relacionadas com a entalpia de formação a uma temperatura 
 
 $$
 H_i = { H_i }^o ( T_R ) + \int_{ T_R }^{ T } C_{pi} dT
-\label{eq35} \tag{35}
+\tag{35}
 $$
 
 As capacidades caloríficas ($C_{pi}$) são polinômios de grau dois:
 
 $$
 C_{pi} = \alpha_i + \beta_i T + \gamma_i T^2
-\label{eq36} \tag{36}
+\tag{36}
 $$
 
-As constantes da Equação \ref{eq36} são listadas na Tabela 3.
+As constantes da Equação 36 são listadas na Tabela 3.
 
 *Tabela 3: Constantes das capacidades caloríficas.*
 
@@ -328,21 +328,21 @@ As constantes da Equação \ref{eq36} são listadas na Tabela 3.
 |  		$		C 	$		       |  				8,511 			                 |  				9,517E-3 			                |  				-2,325E-6 			             |
 |  		$		I 	$		       |  				6,248 			                 |  				8,778E-4 			                |  				-2,13E-8 			              |
 
-Escrevendo $H_{i0} – Hi$ a partir da Equação \ref{eq35}:
+Escrevendo $H_{i0} – Hi$ a partir da Equação 35:
 
 $$
 H_{i0} - H_i = { H_i }^o ( T_R ) + { \int_{T_R}^{T_{i0}} C_{pi} dT } - { H_i }^o( T_R ) +  { \int_{T}^{T_R} C_{pi} dT } = - { \int_{T_{i0}}^{T} C_{pi} dT}
-\label{eq37} \tag{37}
+\tag{37}
 $$
 
-Substituindo a Equação \ref{eq37} na \ref{eq33}:
+Substituindo a Equação 37 na 33:
 
 $$
 \dot{Q} - F_{A0} {\sum_{i=1}^{n} { \int_{T_i0}^{T} \theta_i C_{pi} dT}} - F_{A0} X \Delta H_{RX} = 0
-\label{eq38} \tag{38}
+\tag{38}
 $$
 
-Substituindo o termo de entalpia de reação com a Equação \ref{eq35}:
+Substituindo o termo de entalpia de reação com a Equação 35:
 
 $$
 \Delta H_{RX} ( T ) = { H_C }^o + \int_{ T_R }^{ T } C_{pC} dT - \frac{1}{2}{ H_B }^o -\frac{1}{2} \int_{ T_R }^{ T } C_{pB} dT - { H_A }^o + \int_{ T_R }^{ T } C_{pA} dT
@@ -350,63 +350,63 @@ $$
 
 $$
 \Delta H_{RX} ( T ) = { H_C }^o - \frac{1}{2}{ H_B }^o - { H_A }^o + \int_{ T_R }^{ T } ( C_{pC} - \frac{1}{2} C_{pB} - C_{pA} ) dT = \Delta H_{RX} ^o( T_R ) + \int_{ T_R }^{ T } \Delta C_p dT
-\label{eq39} \tag{39}
+\tag{39}
 $$
 
-A entalpia de reação para a temperatura de referência de $1260 ^oR$ é $-42 471 btu.lbmol de A^{-1}$. Da Equação \ref{eq36} e Tabela 3 encontra-se o seguinte $\Delta C_p$:
+A entalpia de reação para a temperatura de referência de $1260 ^oR$ é $-42 471 btu.lbmol de A^{-1}$. Da Equação 36 e Tabela 3 encontra-se o seguinte $\Delta C_p$:
 
 $$
 \Delta C_p = -1,5625 + 2,7225 \* 10^{-3}T - 7,377 \* 10^{-7} T^2
-\label{eq40} \tag{40}
+\tag{40}
 $$
 
 E a entalpia de reação fica:
 
 $$
 \Delta H_{RX} ( T ) = -42471 - 1,5625( T-1260 ) + 1,36\*10^{-3} ( T^2 -1260^2 ) - 2,459\*10^{-7} ( T^3 - 1260^3 )
-\label{eq41} \tag{41}
+\tag{41}
 $$
 
-Diferenciando o balanço de energia (Equação \ref{eq38}) em relação à quantidade de catalisador ($W$), e observando que no último termo deve-se utilizar a regra da cadeia pois $X\Delta H_{RX} = f( T, X )$:
+Diferenciando o balanço de energia (Equação 38) em relação à quantidade de catalisador ($W$), e observando que no último termo deve-se utilizar a regra da cadeia pois $X\Delta H_{RX} = f( T, X )$:
 
 $$
 \frac{d \dot{Q}}{ dW } - F_{A0} { \sum_{i=1}^{n} \theta_i C_{pi}} \frac{ dT }{ dW } - \Delta H_{RX} F_{A0} \frac{ dX }{ dW } - F_{A0} X \Delta C_p \frac{ dT }{ dW } - F_{A0} \frac{ dX }{ dW } { \int_{T_R}^{T} \Delta C_p dT} = 0
-\label{eq42} \tag{42}
+\tag{42}
 $$
 
-Para encontrar a derivada da taxa de troca de calor em relação à quantidade de catalisador utilizamos a razão entre área de troca térmica e volume de leito ($a = A_{troca}/V_{leito} = 4/D$) e substituímos na Equação \ref{eq34}:
+Para encontrar a derivada da taxa de troca de calor em relação à quantidade de catalisador utilizamos a razão entre área de troca térmica e volume de leito ($a = A_{troca}/V_{leito} = 4/D$) e substituímos na Equação 34:
 
 $$
 \dot{Q} = U{\frac{4}{D}}V_{leito}( T_a - T )
-\label{eq43} \tag{43}
+\tag{43}
 $$
 
 Pode-se relacionar o volume de leito com a quantidade de catalisador da seguinte forma:
 
 $$
 V_{leito} = \frac{ W }{ \rho_b }
-\label{eq44} \tag{44}
+\tag{44}
 $$
 
-Substituindo \ref{eq44} em \ref{eq43} e diferenciando em relação a $W$:
+Substituindo 44} em 43} e diferenciando em relação a $W$:
 
 $$
 \frac{d \dot{Q}}{ dW } = \frac{ 4U }{ \rho_b D } ( T_a -T )
-\label{eq45} \tag{45}
+\tag{45}
 $$
 
-Substituindo $\frac{ dX }{ dW }$ por $-r_A'$ e $\frac{d \dot{Q}}{dW}$ na Equação \ref{eq42}:
+Substituindo $\frac{ dX }{ dW }$ por $-r_A'$ e $\frac{d \dot{Q}}{dW}$ na Equação 42:
 
 $$
 \frac{ 4U }{ \rho_b D } ( T_a -T ) - F_{A0}({ \sum_{i=1}^{n} \theta_i C_{pi}} )\frac{ dT }{ dW } - F_{A0} ( \Delta H_{RX}^o + \int_{T_R}^T \Delta C_p dT) \frac{ -r_A'}{ F_{A0} } = 0
-\label{eq46} \tag{46}
+\tag{46}
 $$
 
 Rearranjando e simplificando, chegamos à EDO do balanço de energia:
 
 $$
 \frac{dT}{ dW } = \frac{\frac{ 4U }{ \rho_b D } ( T_a -T ) + ( -r_A' )( - \Delta H_{RX} )}{ F_{A0} ( \sum_{i=1}^{n} \theta_i C_{pi} + X \Delta C_p)}
-\label{eq47} \tag{47}
+\tag{47}
 $$
 
 ### Balanço de Momento
@@ -415,7 +415,7 @@ Para a perda de pressão utilizamos a Equação de Ergun:
 
 $$
 \frac{ dP }{ dz } = - \frac{ G }{ \rho g_c D_p } \frac{ 1 - \phi }{ \phi ^3 } \left [ \frac{ 150 (1 - \phi) }{D_p} + 1,75G \right ] 
-\label{eq48} \tag{48}
+\tag{48}
 $$
 
 Em que:
@@ -434,16 +434,16 @@ $\rho$ a densidade do fluido e;
 
 $G$ a velocidade Mássica.
 
-Substituindo a massa de catalisador em função de $z$ ($dz = \frac{4dW}{\rho_b \pi { D^2 }}$), e a densidade da lei dos gases ideais ($\rho = \rho_0 \frac{ P }{ P_0 } \frac{ T_0 }{ T } ( 1-0,055X )$) na Equação \ref{eq48}:
+Substituindo a massa de catalisador em função de $z$ ($dz = \frac{4dW}{\rho_b \pi { D^2 }}$), e a densidade da lei dos gases ideais ($\rho = \rho_0 \frac{ P }{ P_0 } \frac{ T_0 }{ T } ( 1-0,055X )$) na Equação 48:
 
 $$
 \frac{ dP }{ dW } = -\frac{4}{\rho_b \pi D^2} \frac{ G (1-0,055X) }{ g_c D_p \rho_0  } \frac{P_0}{P} \frac{T}{T_0} \frac{ 1 - \phi }{ \phi ^3 } \left [ \frac{ 150 (1 - \phi) } {D_p} + 1,75G \right ] 
-\label{eq49} \tag{49}
+\tag{49}
 $$
 
 ### Solução Numérica do Sistema de Equações Diferenciais e Discussão dos Resultados
 
-Resolvendo numericamente o sistema de equações diferenciais \ref{eq20}, \ref{eq47} e \ref{eq49} no software Octave versão 6.2.0, utilizando o método de Dormand-Prince de ordem 4, com pressão inicial de $2 atm$, conversão inicial zero e temperatura na entrada de $1200 ^oR$, obtemos o gráfico da Figura 2, com as curvas de temperatura, conversão e conversão de equilíbrio (quando a velocidade de reação é nula).
+Resolvendo numericamente o sistema de equações diferenciais 20}, 47} e 49} no software Octave versão 6.2.0, utilizando o método de Dormand-Prince de ordem 4, com pressão inicial de $2 atm$, conversão inicial zero e temperatura na entrada de $1200 ^oR$, obtemos o gráfico da Figura 2, com as curvas de temperatura, conversão e conversão de equilíbrio (quando a velocidade de reação é nula).
 
 [Link para os códigos do Octave](https://github.com/rafaelbeloduarte/oxidacao_SO2_octave)
 
