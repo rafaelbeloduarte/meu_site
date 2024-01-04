@@ -15,7 +15,6 @@ pygmentscodefencesguesssyntax = true
 [params]
     author = "Rafael Belo Duarte"
     info = "Engenheiro Químico"
-#    description = "Aqui encontrarás meu currículo e projetos realizados."
     keywords = "blog,engenharia,engenharia química"
     # avatarurl = "img/icon_32.png"
     
@@ -28,13 +27,11 @@ pygmentscodefencesguesssyntax = true
 
     footercontent = "rafaelbeloduarte@pm.me"
 
-    hidecredits = true
-    hidecopyright = true
-
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+
+    disableComments = true
 
     # Specify light/dark colorscheme
     # Supported values:
