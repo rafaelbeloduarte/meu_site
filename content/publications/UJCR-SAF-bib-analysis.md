@@ -11,3 +11,5 @@ categories = []
 externalLink = "https://doi.org/10.37256/ujcr.1220234147"
 series = []
 +++
+
+[https://doi.org/10.37256/ujcr.1220234147](https://doi.org/10.37256/ujcr.1220234147)

@@ -12,3 +12,4 @@ externalLink = "https://doi.org/10.1016/j.fuel.2023.129257"
 series = []
 +++
 
+[https://doi.org/10.1016/j.fuel.2023.129257](https://doi.org/10.1016/j.fuel.2023.129257)

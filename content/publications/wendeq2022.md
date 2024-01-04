@@ -13,3 +13,4 @@ series = []
 image = "/publications/images/wendeq2022.png"
 +++
 
+[http://dx.doi.org/10.29327/166591.2-10](http://dx.doi.org/10.29327/166591.2-10)
