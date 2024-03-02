@@ -10,13 +10,13 @@ canonifyurls = true
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentscodefencesguesssySntax = true
 
 [params]
     author = "Rafael Belo Duarte"
     info = "Engenheiro Químico"
     keywords = "blog,engenharia,engenharia química"
-    # avatarurl = "img/icon_32.png"
+    avatarurl = "img/handsome_dude.jpg"
     
     dateformat = "02/01/2006"
 
